@@ -69,11 +69,13 @@ export class Calculator extends Component {
                 <div className ="calcBody">
                     <OutputScreen question = {this.state.question} answer = {this.state.answer} />
 
+                    <div style = {{"height":"50px"}}></div>
+
                     {/* Button Grid */}
 
                     <div className="buttonRow">
-                        <Button label = {'Clear'} handleClick = {this.handleClick}/>
-                        <Button label = {'Delete'} handleClick = {this.handleClick}/>
+                        <Button  label = {'Clear'} handleClick = {this.handleClick}/>
+                        <Button  label = {'Del'} handleClick = {this.handleClick}/>
                         <Button label = {'.'} handleClick = {this.handleClick}/>
                         <Button label = {'/'} handleClick = {this.handleClick}/>
                     </div>
@@ -108,7 +110,7 @@ export class Calculator extends Component {
 
                     <div className="buttonRow">
                         <Button label = {'0'} handleClick = {this.handleClick}/>
-                        <Button label = {'Equate'} handleClick = {this.handleClick}/>
+                        <Button label = {'='} handleClick = {this.handleClick}/>
                     </div>
 
                 </div>
