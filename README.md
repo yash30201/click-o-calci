@@ -1,11 +1,11 @@
 ## CLICK 'O' CALCI
 
-A basic calculator app supporting multiplication, division, addition and subtraction.<br />
-Built using ReactJs<br />
-Uses javascript eval() global function to equate the expression<br />
+*A basic calculator app supporting multiplication, division, addition and subtraction.
+*Built using ReactJs
+*Uses javascript eval() global function to equate the expression
 
 
-
+<br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
