@@ -104,8 +104,16 @@ input[type="button"]:active {
 }
 
 @media only screen and (max-width:760px){
+
     .calcTitle {
-        font-size: 1rem;
+        font-size: 2rem;
+        background-color: #a6b1e1;
+        padding: 1rem 2rem 3rem 0rem;
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        width: min-content;
+        text-align: left;
     }
+    
 }
 

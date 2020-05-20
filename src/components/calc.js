@@ -108,7 +108,7 @@ export class Calculator extends Component {
                         <Button label = {'-'} handleClick = {this.handleClick}/>
                     </div>
 
-                    <div className="buttonRow">
+                    <div className="buttonRow" style = {{"marginBottom":"5rem"}}>
                         <Button label = {'0'} handleClick = {this.handleClick}/>
                         <Button label = {'='} handleClick = {this.handleClick}/>
                     </div>
