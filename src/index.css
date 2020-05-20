@@ -110,9 +110,12 @@ input[type="button"]:active {
         background-color: #a6b1e1;
         padding: 1rem 2rem 3rem 0rem;
         padding-left: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         width: min-content;
         text-align: left;
+    }
+    .outputScreenRow input {
+        width: 70%;
     }
     
 }
