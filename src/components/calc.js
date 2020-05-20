@@ -48,7 +48,7 @@ export class Calculator extends Component {
                 break;
             }
 
-            case 'Delete' : {
+            case 'Del' : {
                 var str = this.state.question;
                 str = str.substr(0, str.length-1);
                 this.setState({question : str});
