@@ -19,7 +19,7 @@ export class Calculator extends Component {
         const value = event.target.value;
 
         switch (value){
-            case 'Equate': {
+            case '=': {
                 
                 if(this.state.question !== ''){
 
