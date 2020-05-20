@@ -31,7 +31,7 @@ export class Calculator extends Component {
                         this.setState({answer:"Math Error"});
                     }
 
-                    if(ans===undefined){
+                    if(ans===undefined || ans===Infinity || isNaN(ans)){
                         this.setState({answer:"Math Error"});
                     }
                     else{
