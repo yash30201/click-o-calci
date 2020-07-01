@@ -101,13 +101,6 @@ export class Calculator extends Component {
                         <Button label = {'+'} handleClick = {this.handleClick}/>
                     </div>
 
-                    <div className="buttonRow">
-                        <Button label = {'4'} handleClick = {this.handleClick}/>
-                        <Button label = {'5'} handleClick = {this.handleClick}/>
-                        <Button label = {'6'} handleClick = {this.handleClick}/>
-                        <Button label = {'-'} handleClick = {this.handleClick}/>
-                    </div>
-
                     <div className="buttonRow" style = {{"marginBottom":"5rem"}}>
                         <Button label = {'0'} handleClick = {this.handleClick}/>
                         <Button label = {'='} handleClick = {this.handleClick}/>
